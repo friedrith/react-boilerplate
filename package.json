@@ -8,6 +8,7 @@
     "babel-eslint": "7.2.3",
     "babel-jest": "20.0.3",
     "babel-loader": "7.1.2",
+    "babel-plugin-transform-export-default": "^7.0.0-alpha.20",
     "babel-preset-react-app": "^3.1.1",
     "babel-runtime": "6.26.0",
     "case-sensitive-paths-webpack-plugin": "2.1.1",
@@ -85,7 +86,8 @@
   "babel": {
     "presets": [
       "react-app"
-    ]
+    ],
+    "plugins": ["transform-export-default"]
   },
   "eslintConfig": {
     "extends": "react-app"
