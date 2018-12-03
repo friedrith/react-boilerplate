@@ -13,3 +13,14 @@ $ yarn start
 # build the web application
 $ yarn build
 ```
+
+## TODO
+
+* add prettier
+* add stylelint
+* add jest
+* add storybook
+* add hot-reload
+* add server side rendering
+* add Docker management
+* add yeoman
