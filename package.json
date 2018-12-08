@@ -1,15 +1,23 @@
 {
-  "name": "ux-studio",
+  "name": "boilerplate",
   "version": "0.1.0",
   "private": true,
+  "contributors": [
+    {
+      "name": "Thibault Friedrich",
+      "email": "thibault.friedrich@gmail.com",
+      "url": "https://thibaultfriedrich.io"
+    }
+  ],
   "dependencies": {
     "autoprefixer": "7.1.6",
     "babel-core": "6.26.0",
-    "babel-eslint": "7.2.3",
+    "babel-eslint": "^7.2.3",
     "babel-jest": "20.0.3",
     "babel-loader": "7.1.2",
     "babel-plugin-transform-export-default": "^7.0.0-alpha.20",
-    "babel-preset-react-app": "^3.1.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
     "babel-runtime": "6.26.0",
     "case-sensitive-paths-webpack-plugin": "2.1.1",
     "chalk": "1.1.3",
@@ -17,7 +25,7 @@
     "dotenv": "4.0.0",
     "dotenv-expand": "4.2.0",
     "eslint": "4.10.0",
-    "eslint-config-react-app": "^2.1.0",
+    "eslint-import-resolver-webpack": "^0.10.1",
     "eslint-loader": "1.9.0",
     "eslint-plugin-flowtype": "2.39.1",
     "eslint-plugin-import": "2.8.0",
@@ -47,50 +55,7 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js --env=jsdom"
-  },
-  "jest": {
-    "collectCoverageFrom": [
-      "src/**/*.{js,jsx,mjs}"
-    ],
-    "setupFiles": [
-      "<rootDir>/config/polyfills.js"
-    ],
-    "testMatch": [
-      "<rootDir>/src/**/__tests__/**/*.{js,jsx,mjs}",
-      "<rootDir>/src/**/?(*.)(spec|test).{js,jsx,mjs}"
-    ],
-    "testEnvironment": "node",
-    "testURL": "http://localhost",
-    "transform": {
-      "^.+\\.(js|jsx|mjs)$": "<rootDir>/node_modules/babel-jest",
-      "^.+\\.css$": "<rootDir>/config/jest/cssTransform.js",
-      "^(?!.*\\.(js|jsx|mjs|css|json)$)": "<rootDir>/config/jest/fileTransform.js"
-    },
-    "transformIgnorePatterns": [
-      "[/\\\\]node_modules[/\\\\].+\\.(js|jsx|mjs)$"
-    ],
-    "moduleNameMapper": {
-      "^react-native$": "react-native-web"
-    },
-    "moduleFileExtensions": [
-      "web.js",
-      "mjs",
-      "js",
-      "json",
-      "web.jsx",
-      "jsx",
-      "node"
-    ]
-  },
-  "babel": {
-    "presets": [
-      "react-app"
-    ],
-    "plugins": ["transform-export-default"]
-  },
-  "eslintConfig": {
-    "extends": "react-app"
+    "test": "node scripts/test.js --env=jsdom --config config/jest.config.js"
   },
   "devDependencies": {
     "eslint-config-airbnb": "^16.1.0",
