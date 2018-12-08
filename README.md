@@ -1,29 +1,22 @@
 # react-boilerplate
-A boilerplate for react based on create-react-app with some improvements like:
 
-* scss
+A boilerplate for react based on create-react-app with nice improvements:
+
+* SASS management
+* eslint with Airbnb config
+* stylelint with Airbnb config
 
 ## Getting started
 
-### With Docker
-
-```bash
-$ docker build ./ -t boilerplate:dev # build the image for development
-$ docker image ls # check if the image boilerplate:dev is there.
-$ docker docker run -i -t -p 3000:3000 boilerplate:dev # start the image
-```
-
-### Without Docker
-
 ```bash
 # install dependencies
-$ yarn
+$ npm install
 
 # start the development webserver
-$ yarn start
+$ npm start
 
 # build the web application
-$ yarn build
+$ npm build
 ```
 
 

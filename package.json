@@ -1,5 +1,5 @@
 {
-  "name": "boilerplate",
+  "name": "react-boilerplate",
   "version": "0.1.0",
   "private": true,
   "contributors": [
@@ -60,6 +60,10 @@
   "devDependencies": {
     "eslint-config-airbnb": "^16.1.0",
     "node-sass": "^4.7.2",
-    "sass-loader": "^6.0.6"
+    "sass-loader": "^6.0.6",
+    "stylelint": "^9.9.0",
+    "stylelint-config-airbnb": "0.0.0",
+    "stylelint-order": "^2.0.0",
+    "stylelint-scss": "^3.4.1"
   }
 }
