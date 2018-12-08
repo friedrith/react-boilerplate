@@ -1,9 +1,9 @@
 # react-boilerplate
 
-A boilerplate for react based on create-react-app with nice improvements:
+The ultimate boilerplate for react projects based on [create-react-app](https://github.com/facebook/create-react-app) using the latest technologies :ok_hand::ok_hand::
 
-- SASS management
-- eslint with Airbnb config
+- [SASS](https://sass-lang.com/)
+- [eslint](https://eslint.org/) with Airbnb config
 - [stylelint](https://stylelint.io/) with Airbnb config
 - [prettier](https://prettier.io) (use prettier with eslint integration in your editor)
 
@@ -20,7 +20,7 @@ $ npm start
 $ npm build
 ```
 
-## TODO
+## Roadmap
 
 - add jest
 - add storybook
@@ -28,6 +28,11 @@ $ npm build
 - add server side rendering
 - add Docker management
 - add yeoman
+- add contributing.md
+
+## License
+
+This project is [MIT licensed](https://github.com/facebook/jest/blob/master/LICENSE).
 
 ## Useful links
 
