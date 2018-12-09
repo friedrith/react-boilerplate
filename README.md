@@ -6,6 +6,7 @@ The ultimate boilerplate for react projects based on [create-react-app](https://
 - [eslint](https://eslint.org/) with Airbnb config
 - [stylelint](https://stylelint.io/) with Airbnb config
 - [prettier](https://prettier.io) (use prettier with eslint integration in your editor)
+- Hot reload
 
 ## Getting started
 
@@ -24,7 +25,6 @@ $ npm build
 
 - add jest
 - add storybook
-- add hot-reload
 - add server side rendering
 - add Docker management
 - add yeoman
@@ -38,3 +38,5 @@ This project is [MIT licensed](https://github.com/facebook/jest/blob/master/LICE
 
 - [React docker for development](https://medium.com/@McMenemy/react-docker-for-development-and-production-6cb50a1218c5)
 - [Example of repository with docker](https://github.com/McMenemy/GoDoRP)
+- [Yo](https://yeoman.io/learning/index.html)
+- [React hot loader](https://github.com/gaearon/react-hot-loader)

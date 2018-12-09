@@ -1,8 +1,10 @@
 import React from 'react'
+import { hot } from 'react-hot-loader'
+
 import logo from './logo.svg'
 import style from './App.style'
 
-export default () => (
+const App = () => (
   <div className={style.App}>
     <header className={style.header}>
       <img src={logo} className={style.logo} alt="logo" />
@@ -13,3 +15,5 @@ export default () => (
     </p>
   </div>
 )
+
+export default hot(module)(App)

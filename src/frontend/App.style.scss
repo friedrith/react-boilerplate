@@ -19,7 +19,7 @@
 
   .header {
     background-color: #222;
-    height: 150px;
+    height: 250px;
     padding: 20px;
     color: white;
   }
@@ -30,5 +30,10 @@
 
   .intro {
     font-size: large;
+  }
+
+  .input {
+    padding: 5px;
+    font-size: 1.1em;
   }
 }

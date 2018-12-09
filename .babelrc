@@ -1,4 +1,4 @@
 {
-  "plugins": ["transform-export-default"],
-  "presets": [["env", {"modules": false}], "react"],
+  "plugins": ["transform-export-default", "react-hot-loader/babel"],
+  "presets": [["env", { "modules": false }], "react"]
 }
