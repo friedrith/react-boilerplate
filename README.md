@@ -1,14 +1,21 @@
-# react-boilerplate
+<h1 align="center">
+  React-boilerplate
+</h1>
+<p align="center">
+  <strong>The ultimage react boilerplate</strong><br>
+  With the best current technologies for frontend developement :ok_hand::ok_hand:
+</p>
 
-The ultimate boilerplate for react projects based on [create-react-app](https://github.com/facebook/create-react-app) using the latest technologies :ok_hand::ok_hand::
+Based on [create-react-app](https://github.com/facebook/create-react-app), it adds :
 
 - [SASS](https://sass-lang.com/)
-- [eslint](https://eslint.org/) with Airbnb config
-- [stylelint](https://stylelint.io/) with Airbnb config
+- [eslint](https://eslint.org/) with [Airbnb config](https://github.com/airbnb/javascript)
+- [stylelint](https://stylelint.io/) with [Airbnb config](https://github.com/airbnb/css#readme)
 - [prettier](https://prettier.io) (use prettier with eslint integration in your editor)
 - Hot reload
+- Docker
 
-## Getting started
+## 🚀 Getting started
 
 ```bash
 # install dependencies
@@ -19,24 +26,22 @@ $ npm start
 
 # build the web application
 $ npm build
+
+# deploy with Docker (you don't need to build it)
+$ docker build ./
+$ docker run -it -p 3000:3000 -v ./src/frontend:/frontend [image id]
+
 ```
 
-## Roadmap
+## :calendar: Roadmap
 
-- add jest
-- add storybook
-- add server side rendering
-- add Docker management
-- add yeoman
-- add contributing.md
+The next technologies to add are:
 
-## License
+- jest
+- storybook
+- server side rendering
+- yeoman
 
-This project is [MIT licensed](https://github.com/facebook/jest/blob/master/LICENSE).
+## :memo: License
 
-## Useful links
-
-- [React docker for development](https://medium.com/@McMenemy/react-docker-for-development-and-production-6cb50a1218c5)
-- [Example of repository with docker](https://github.com/McMenemy/GoDoRP)
-- [Yo](https://yeoman.io/learning/index.html)
-- [React hot loader](https://github.com/gaearon/react-hot-loader)
+This project is [MIT Licensed](./LICENSE).
