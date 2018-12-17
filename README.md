@@ -3,11 +3,12 @@
 </h1>
 <p align="center">
   <strong>The ultimage react boilerplate</strong><br>
-  With the best current technologies for frontend developement :ok_hand::ok_hand:
+  With the latest technologies for frontend developement :ok_hand::ok_hand:
 </p>
 
 Based on [create-react-app](https://github.com/facebook/create-react-app), it adds :
 
+- latests versions of React, babel, etc
 - [SASS](https://sass-lang.com/)
 - [eslint](https://eslint.org/) with [Airbnb config](https://github.com/airbnb/javascript)
 - [stylelint](https://stylelint.io/) with [Airbnb config](https://github.com/airbnb/css#readme)
@@ -19,19 +20,21 @@ Based on [create-react-app](https://github.com/facebook/create-react-app), it ad
 
 ```bash
 # install dependencies
-$ npm install
+$ yarn install
 
 # start the development webserver
-$ npm start
+$ yarn start
 
 # build the web application
-$ npm build
+$ yarn build
 
 # deploy with Docker (you don't need to build it)
 $ docker build ./
 $ docker run -it -p 3000:3000 -v ./src/frontend:/frontend [image id]
 
 ```
+
+> Discover all custom scripts using `yarn manual`
 
 ## :calendar: Roadmap
 

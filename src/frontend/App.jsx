@@ -6,6 +6,7 @@ import Main from 'components/Main'
 import logo from './logo.svg'
 import style from './App.style'
 
+// TODO: use class instead of function
 const App = () => (
   <div className={style.App}>
     <header className={style.header}>
