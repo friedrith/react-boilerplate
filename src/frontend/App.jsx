@@ -1,5 +1,6 @@
 import React from 'react'
 import { hot } from 'react-hot-loader'
+import SVG from 'react-inlinesvg'
 
 import Main from 'components/Main'
 
@@ -10,7 +11,7 @@ import style from './App.style'
 const App = () => (
   <div className={style.App}>
     <header className={style.header}>
-      <img src={logo} className={style.logo} alt="logo" />
+      <SVG src={logo} className={style.logo} />
       <h1 className={style.title}>Welcome to React</h1>
     </header>
     <p className={style.intro}>
